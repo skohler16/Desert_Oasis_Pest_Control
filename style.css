@@ -1,4 +1,5 @@
 *{
+    border: 1px solid blueviolet;
     box-sizing: border-box;
     margin: none;
     font-family: "Noto Sans", sans-serif;
@@ -46,6 +47,17 @@ body {
 h1{
     color: bisque;
     text-decoration: underline;
+}
+
+hr{
+    color: black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .footer-left{
