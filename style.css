@@ -20,13 +20,27 @@ body {
     flex-direction: column;
 }
 
+.phone-container{
+    text-decoration: none;
+}
+
 .title{
     font-size: 2.4rem;
 }
 
-.nav-links{
+.nav-links a,
+.phone-container a{
+    display: flex;
     text-decoration: none;
-    flex-direction: column;
+    flex-direction: row;
+    gap: .75rem;
+}
+
+.nav-links a:hover,
+.phone-container a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blanchedalmond;
 }
 
 .material-symbols-outlined {
