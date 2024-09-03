@@ -25,9 +25,9 @@ body {
 }
 
 .title{
-    font-size: 2.4rem;
+    font-size: 4.5rem;
+    color: blanchedalmond;
 }
-
 .nav-links a,
 .phone-container a{
     display: flex;
@@ -41,6 +41,11 @@ body {
     text-decoration: underline;
     cursor: pointer;
     color: blanchedalmond;
+}
+
+h1{
+    color: bisque;
+    text-decoration: underline;
 }
 
 .material-symbols-outlined {
