@@ -48,6 +48,16 @@ h1{
     text-decoration: underline;
 }
 
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    font-size: .7rem;
+    justify-content: center;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
