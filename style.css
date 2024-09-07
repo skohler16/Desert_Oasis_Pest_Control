@@ -1,9 +1,15 @@
 *{
     /* border: 1px solid blueviolet; */
     box-sizing: border-box;
-    margin: none;
+    margin: 0 auto;
     font-family: "Noto Sans", sans-serif;
     color: rgb(185, 145, 93);
+    max-width: 1000px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 header{
@@ -19,6 +25,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+
 }
 
 .phone-container{
